@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FaMosque, FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 const Footer: React.FC = () => {
@@ -22,10 +23,10 @@ const Footer: React.FC = () => {
                 <div>
                     <h3 className="text-lg font-bold text-white mb-4">Quick Links</h3>
                     <ul className="space-y-2 text-sm">
-                        <li><a href="/about" className="hover:text-accent transition-colors">About Us</a></li>
-                        <li><a href="/categories" className="hover:text-accent transition-colors">Categories</a></li>
-                        <li><a href="/rules" className="hover:text-accent transition-colors">Rules & Guidelines</a></li>
-                        <li><a href="/results" className="hover:text-accent transition-colors">Competition Results</a></li>
+                        <li><Link to="/about" className="hover:text-accent transition-colors">About Us</Link></li>
+                        <li><Link to="/categories" className="hover:text-accent transition-colors">Categories</Link></li>
+                        <li><Link to="/rules" className="hover:text-accent transition-colors">Rules & Guidelines</Link></li>
+                        <li><Link to="/results" className="hover:text-accent transition-colors">Competition Results</Link></li>
                     </ul>
                 </div>
 

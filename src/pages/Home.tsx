@@ -12,7 +12,7 @@ const Home: React.FC = () => {
     return (
         <>
             {/* Hero Section */}
-            <section className="relative min-h-[90vh] flex items-center justify-center bg-primary-dark overflow-hidden">
+            <section className="relative min-h-[90vh] flex items-center justify-center bg-primary-dark overflow-hidden pt-20 md:pt-24">
                 {/* Background Pattern Overlay - Simulated with CSS radial gradient for now */}
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary-light/20 to-primary-dark z-0"></div>
 

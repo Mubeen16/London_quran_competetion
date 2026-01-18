@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
                 {/* Logo */}
                 <Link to="/" className="text-2xl font-serif font-bold tracking-wide flex items-center gap-2">
                     {/* <span className="text-accent text-3xl">۞</span> */}
-                    <img src="/src/assets/poster.jpg" alt="Logo" className="w-10 h-10 rounded-full object-cover border-2 border-accent" />
+                    <img src="/src/assets/logo.png" alt="Al Ihsan Academy Logo" className="w-12 h-12 rounded-full object-cover border-2 border-accent" />
                     <span className="hidden sm:inline">Al Ihsan Academy</span>
                 </Link>
 
